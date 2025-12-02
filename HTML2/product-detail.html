@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情 - 精品购物商城</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+   <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-shopping-bag"></i>
+                <span>精品购物</span>
+            </div>
+
+            <div class="nav-search">
+                <form action="#" method="get">
+                    <input type="text" name="keyword" placeholder="搜索商品..." class="search-input">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i> 首页
+                </a>
+                <a href="product-list.html" class="nav-link">
+                    <i class="fas fa-list"></i> 全部商品
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="breadcrumb">
+            <a href="index.html">
+                <i class="fas fa-home"></i> 首页
+            </a>
+            <span class="separator">/</span>
+            <a href="product-list.html">数码产品</a>
+            <span class="separator">/</span>
+            <span class="current">iPhone 15 Pro</span>
+        </div>
+
+
+        <div class="product-detail">
+            <div class="detail-image">
+                <img src="https://via.placeholder.com/600x600/667eea/ffffff?text=iPhone+15+Pro" alt="iPhone 15 Pro">
+            </div>
+
+            <div class="detail-info">
+                <h1 class="detail-title">iPhone 15 Pro</h1>
+
+                <div class="detail-category">
+                    <i class="fas fa-tag"></i>
+                    <span>分类：</span>
+                    <a href="product-list.html">数码产品</a>
+                </div>
+
+                <div class="detail-price-box">
+                    <div class="price-label">价格</div>
+                    <div class="price-main">
+                        <span class="price-symbol">¥</span>
+                        <span class="price-value">7,999.00</span>
+                    </div>
+                </div>
+
+                <div class="detail-stock">
+                    <i class="fas fa-box"></i>
+                    <span>库存：100 件</span>
+                </div>
+
+                <div class="detail-description">
+                    <h3><i class="fas fa-info-circle"></i> 商品描述</h3>
+                    <p>苹果最新旗舰手机，搭载A17 Pro芯片，采用钛金属边框设计。配备专业级摄像系统，支持5倍光学变焦。48MP主摄像头，超强夜景拍摄能力。6.1英寸ProMotion显示屏，120Hz自适应刷新率。支持全新动作按钮，可自定义快捷功能。</p>
+                </div>
+
+                <div class="detail-actions">
+                    <button class="btn btn-primary" onclick="alert('此功能为演示，实际项目需要实现购物车功能')">
+                        <i class="fas fa-shopping-cart"></i> 加入购物车
+                    </button>
+                    <button class="btn btn-danger" onclick="alert('此功能为演示，实际项目需要实现立即购买功能')">
+                        <i class="fas fa-bolt"></i> 立即购买
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sidebar-ad">
+            <div id="ad-container" class="ad-banner">
+                <div class="ad-placeholder">
+                    <i class="fas fa-ad"></i>
+                    <p>相关推荐</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-shopping-bag"></i> 精品购物</h4>
+                    <p>为您提供优质的购物体验</p>
+                </div>
+                <div class="footer-section">
+                    <h4>关于我们</h4>
+                    <p>JavaWeb实验课作业项目</p>
+                    <p>匿名用户精准广告投放系统</p>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p><i class="fas fa-envelope"></i> support@shopping.com</p>
+                    <p><i class="fas fa-phone"></i> 400-888-8888</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 精品购物商城. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/ad-loader.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精品购物商城 - 首页</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-shopping-bag"></i>
+                <span>精品购物</span>
+            </div>
+
+            <div class="nav-search">
+                <form action="#" method="get">
+                    <input type="text" name="keyword" placeholder="搜索商品..." class="search-input">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">
+                    <i class="fas fa-home"></i> 首页
+                </a>
+                <a href="product-list.html" class="nav-link">
+                    <i class="fas fa-list"></i> 全部商品
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="category-nav">
+        <div class="container">
+            <div class="category-list">
+                <a href="product-list.html" class="category-item">
+                    <i class="fas fa-th"></i> 全部分类
+                </a>
+                <a href="product-list.html?category=1" class="category-item">数码产品</a>
+                <a href="product-list.html?category=2" class="category-item">化妆品</a>
+                <a href="product-list.html?category=3" class="category-item">服装</a>
+                <a href="product-list.html?category=4" class="category-item">食品</a>
+                <a href="product-list.html?category=5" class="category-item">图书</a>
+                <a href="product-list.html?category=6" class="category-item">家电</a>
+                <a href="product-list.html?category=7" class="category-item">运动户外</a>
+                <a href="product-list.html?category=8" class="category-item">母婴</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 20px;">
+        <div id="ad-container" class="ad-banner">
+            <div class="ad-placeholder">
+                <i class="fas fa-ad"></i>
+                <h3 style="font-size: 28px; margin-bottom: 10px;">精品购物商城</h3>
+                <p style="font-size: 18px;">新用户专享优惠券，立即领取</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="section-title">
+            <h2><i class="fas fa-fire"></i> 热门商品</h2>
+            <p>精选优质商品，品质保证</p>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/667eea/ffffff?text=iPhone+15+Pro" alt="iPhone 15 Pro">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">iPhone 15 Pro</h3>
+                    <p class="product-desc">苹果最新旗舰手机，A17芯片，钛金属边框</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">7,999.00</span>
+                        </div>
+                        <a href="product-detail.html?id=1" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/f093fb/ffffff?text=华为+Mate+60" alt="华为Mate 60 Pro">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">华为Mate 60 Pro</h3>
+                    <p class="product-desc">华为旗舰手机，麒麟芯片回归</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">6,999.00</span>
+                        </div>
+                        <a href="product-detail.html?id=2" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/4facfe/ffffff?text=小米14" alt="小米14">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">小米14</h3>
+                    <p class="product-desc">小米旗舰手机，骁龙8 Gen3</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">3,999.00</span>
+                        </div>
+                        <a href="product-detail.html?id=3" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/f5576c/ffffff?text=YSL+口红" alt="YSL圣罗兰口红">
+                    <span class="product-badge">化妆品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">YSL圣罗兰口红</h3>
+                    <p class="product-desc">明彩口红，滋润显色</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">320.00</span>
+                        </div>
+                        <a href="product-detail.html?id=4" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/00f2fe/ffffff?text=MAC+口红" alt="MAC魅可口红">
+                    <span class="product-badge">化妆品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">MAC魅可口红</h3>
+                    <p class="product-desc">经典子弹头口红</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">180.00</span>
+                        </div>
+                        <a href="product-detail.html?id=5" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/43e97b/ffffff?text=优衣库羽绒服" alt="优衣库羽绒服">
+                    <span class="product-badge">服装</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">优衣库羽绒服</h3>
+                    <p class="product-desc">轻薄保暖，多色可选</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">599.00</span>
+                        </div>
+                        <a href="product-detail.html?id=6" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/fa709a/ffffff?text=ZARA+大衣" alt="ZARA大衣">
+                    <span class="product-badge">服装</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">ZARA大衣</h3>
+                    <p class="product-desc">时尚修身，欧美风格</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">899.00</span>
+                        </div>
+                        <a href="product-detail.html?id=7" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/fee140/333333?text=三只松鼠" alt="三只松鼠坚果礼盒">
+                    <span class="product-badge">食品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">三只松鼠坚果礼盒</h3>
+                    <p class="product-desc">每日坚果，健康零食</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">99.00</span>
+                        </div>
+                        <a href="product-detail.html?id=8" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-shopping-bag"></i> 精品购物</h4>
+                    <p>为您提供优质的购物体验</p>
+                </div>
+                <div class="footer-section">
+                    <h4>关于我们</h4>
+                    <p>JavaWeb实验课作业项目</p>
+                    <p>匿名用户精准广告投放系统</p>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p><i class="fas fa-envelope"></i> support@shopping.com</p>
+                    <p><i class="fas fa-phone"></i> 400-888-8888</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 精品购物商城. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../js/ad-loader.js"></script>
+</body>
+</html>
+

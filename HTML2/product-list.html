@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表 - 精品购物商城</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-shopping-bag"></i>
+                <span>精品购物</span>
+            </div>
+
+            <div class="nav-search">
+                <form action="#" method="get">
+                    <input type="text" name="keyword" placeholder="搜索商品..." class="search-input">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i> 首页
+                </a>
+                <a href="product-list.html" class="nav-link active">
+                    <i class="fas fa-list"></i> 全部商品
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="category-nav">
+        <div class="container">
+            <div class="category-list">
+                <a href="product-list.html" class="category-item active">
+                    <i class="fas fa-th"></i> 全部分类
+                </a>
+                <a href="#" class="category-item">数码产品</a>
+                <a href="#" class="category-item">化妆品</a>
+                <a href="#" class="category-item">服装</a>
+                <a href="#" class="category-item">食品</a>
+                <a href="#" class="category-item">图书</a>
+                <a href="#" class="category-item">家电</a>
+                <a href="#" class="category-item">运动户外</a>
+                <a href="#" class="category-item">母婴</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 20px;">
+        <div id="ad-container" class="ad-banner">
+            <div class="ad-placeholder">
+                <i class="fas fa-ad"></i>
+                <p>正在加载精准推荐...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="breadcrumb">
+            <a href="index.html">
+                <i class="fas fa-home"></i> 首页
+            </a>
+            <span class="separator">/</span>
+            <span class="current">全部商品</span>
+        </div>
+
+
+        <div class="section-title">
+            <h2><i class="fas fa-list"></i> 全部商品</h2>
+            <p>共找到 24 件商品</p>
+        </div>
+
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/667eea/ffffff?text=iPhone+15+Pro" alt="iPhone 15 Pro">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">iPhone 15 Pro</h3>
+                    <p class="product-desc">苹果最新旗舰手机，A17芯片，钛金属边框</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">7,999.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/f093fb/ffffff?text=MacBook+Pro" alt="MacBook Pro">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">MacBook Pro</h3>
+                    <p class="product-desc">M3芯片，14英寸视网膜屏</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">12,999.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/4facfe/ffffff?text=iPad+Air" alt="iPad Air">
+                    <span class="product-badge">数码产品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">iPad Air</h3>
+                    <p class="product-desc">M1芯片，10.9英寸全面屏</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">4,599.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/f5576c/ffffff?text=YSL+口红" alt="YSL圣罗兰口红">
+                    <span class="product-badge">化妆品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">YSL圣罗兰口红</h3>
+                    <p class="product-desc">明彩口红，滋润显色</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">320.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/00f2fe/ffffff?text=雅诗兰黛" alt="雅诗兰黛粉底液">
+                    <span class="product-badge">化妆品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">雅诗兰黛粉底液</h3>
+                    <p class="product-desc">持久遮瑕，自然妆感</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">480.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300/43e97b/ffffff?text=SK-II" alt="SK-II神仙水">
+                    <span class="product-badge">化妆品</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">SK-II神仙水</h3>
+                    <p class="product-desc">护肤精华水，改善肌肤</p>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-symbol">¥</span>
+                            <span class="price-value">1,090.00</span>
+                        </div>
+                        <a href="product-detail.html" class="btn-detail">
+                            查看详情 <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-shopping-bag"></i> 精品购物</h4>
+                    <p>为您提供优质的购物体验</p>
+                </div>
+                <div class="footer-section">
+                    <h4>关于我们</h4>
+                    <p>JavaWeb实验课作业项目</p>
+                    <p>匿名用户精准广告投放系统</p>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p><i class="fas fa-envelope"></i> support@shopping.com</p>
+                    <p><i class="fas fa-phone"></i> 400-888-8888</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 精品购物商城. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/ad-loader.js"></script>
+</body>
+</html>
+
